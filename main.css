@@ -1,0 +1,43 @@
+h1{
+  color: gold;
+}
+
+.element {
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+@keyframes fadeIn{
+0%   { opacity: 0; }
+100% { opacity: 1; }
+
+}
+
+.pleaseworkone{
+  animation: fadeIn;
+  animation-duration: 4s;
+
+}
+
+.pleaseworktwo{
+  animation: fadeIn;
+  animation-duration: 6s;
+
+}
+
+.pleaseworkthree{
+  animation: fadeIn;
+  animation-duration: 8s;
+
+}
+
+.pleaseworkfour{
+  animation: fadeIn;
+  animation-duration: 10s;
+
+}
+
+@media only screen and (max-width: 400px)
